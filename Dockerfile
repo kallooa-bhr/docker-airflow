@@ -34,6 +34,7 @@ RUN set -ex \
         libffi-dev \
         libpq-dev \
         git \
+        nano \
     ' \
     && apt-get update -yqq \
     && apt-get upgrade -yqq \
